@@ -1,7 +1,7 @@
 package inventario;
 
 public enum enumTipo {
-    CAMISETA(1), PANTALON(2), CALZADO(3), CALCETIN(4), BALON(5), GUANTE(6);
+    CAMISETA(1), PANTALON(2), CALZADO(3), CALCETIN(4), BALON(5), GUANTE(6), TRAJEDEBANO(7);
     
     private int numTipo;
     
