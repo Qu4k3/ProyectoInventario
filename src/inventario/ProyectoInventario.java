@@ -12,9 +12,15 @@ public class ProyectoInventario {
 
     
     public static void main(String[] args) {
+        /* Recibo de view
+            
+        */
+        
+        
         enumCategoria cat = enumCategoria.FOOTBALL;
+        enumTipo tipo = enumTipo.BALON;
         DateFormat format = new SimpleDateFormat("d/MM/Y");
-        Balon balon = new Balon(9, "1", "2", "3", "4", 9, 3.3, cat, "6", LocalDateTime.now());
+        Balon balon = new Balon(9, "1", "2", "3", "4", 9, 3.3, tipo, cat, "6", LocalDateTime.now());
         System.out.println(balon.getPrecio());
         /*if(balon instanceof Football)
             System.out.println("football");
@@ -23,19 +29,19 @@ public class ProyectoInventario {
         //Comparar enums con string --Funciona
         if(balon.getCategoria().name().equals("FOOTBALL"))
             System.out.println(balon.getCategoria().name());
-        
+        //anadirProducto();
     }
-    
-    public static void anadirProducto(){
+                        //anadirProducto
+    public static void crearProducto(){
         
     }        
-    public void editarProducto(){
+    public static void editarProducto(){
     
     }
-    public void eliminarProducto(){
+    public static void eliminarProducto(){
         
     }
-    public void buscarProducto(){
+    public static void buscarProducto(){
         
     }
     public void ordenarBasico(){

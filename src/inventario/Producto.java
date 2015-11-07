@@ -12,10 +12,11 @@ public class Producto {
     private int stock;
     private Double precio;
     private enumCategoria categoria;
+    private enumTipo tipo;
     private String sexo;
     private LocalDateTime fecha;
 
-    public Producto(int codigo, String nombre, String descripcion, String talla, String marca, int stock, Double precio, enumCategoria categoria, String sexo, LocalDateTime fecha) {
+    public Producto(int codigo, String nombre, String descripcion, String talla, String marca, int stock, Double precio, enumTipo tipo, enumCategoria categoria, String sexo, LocalDateTime fecha) {
         this.codigo = codigo;
         this.nombre = nombre;
         this.descripcion = descripcion;
