@@ -32,7 +32,7 @@ public class ProyectoInventario {
         String[] datosView = {"001", "Balon Caro", "Un balon es un solo un balon", "9", "Spalding", "50", "35.95", "BASKET", "BALON", "", "07/11/2015"};
                             //textCodigo, textNombre, "textDescripcion", "textTalla", "textMarca", "textStock", "textPrecio", "textCategoria", "textTipo", "textSexo", "textFecha"
         producto = parsearProducto(datosView);
-        crearProducto(producto);
+        anadirProducto(producto);
         
         //Crea un objeto tipo Camiseta
         datosView[0]="002";
