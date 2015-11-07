@@ -3,7 +3,7 @@ package inventario;
 
 import java.time.LocalDateTime;
 
-public class Producto {
+public abstract class Producto {
     private int codigo;
     private String nombre;
     private String descripcion;

@@ -5,6 +5,7 @@ import java.text.DateFormat;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.time.LocalDateTime;
+import java.util.HashMap;
 
 
 
@@ -12,11 +13,25 @@ public class ProyectoInventario {
 
     
     public static void main(String[] args) {
-        /* Recibo de view
-            
+        /* Recibir de los campos view/crearProducto
+            JTextField    textCodigo;
+            JTextField    textNombre;
+            JTextField    textDescripcion;
+            JTextField    textTalla;
+            JTextField    textMarca;
+            JTextField    textStock;
+            JTextField    textPrecio;
+            JTextField    textCategoria;
+            JTextField    textTipo;
+            JTextField    textSexo;
+            JTextField    textFecha;
         */
         
+        HashMap<Integer, Producto> inventario = new HashMap<Integer, Producto>();
+        //Variables que recogeria los datos de los campos de view
         
+        
+        //Producto nuevoProducto = new Producto(9, "1", "2", "3", "4", 9, 3.3, "Tipo", "Cat", "6", LocalDateTime.now());
         enumCategoria cat = enumCategoria.FOOTBALL;
         enumTipo tipo = enumTipo.BALON;
         DateFormat format = new SimpleDateFormat("d/MM/Y");
