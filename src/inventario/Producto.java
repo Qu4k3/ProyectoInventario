@@ -1,7 +1,7 @@
 
 package inventario;
 
-import java.time.LocalDateTime;
+import java.time.LocalDate;
 
 public abstract class Producto {
     private int codigo;
@@ -14,9 +14,9 @@ public abstract class Producto {
     private enumCategoria categoria;
     private enumTipo tipo;
     private String sexo;
-    private LocalDateTime fecha;
+    private LocalDate fecha;
 
-    public Producto(int codigo, String nombre, String descripcion, String talla, String marca, int stock, Double precio, enumTipo tipo, enumCategoria categoria, String sexo, LocalDateTime fecha) {
+    public Producto(int codigo, String nombre, String descripcion, String talla, String marca, int stock, Double precio, enumTipo tipo, enumCategoria categoria, String sexo, LocalDate fecha) {
         this.codigo = codigo;
         this.nombre = nombre;
         this.descripcion = descripcion;
