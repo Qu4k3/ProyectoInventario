@@ -1,7 +1,7 @@
 package inventario;
 
 public enum enumCategoria {
-    FOOTBALL(1), BASKET(2), RUNNING(3), SWIMMING(4);
+    FOOTBALL(1), BASKET(2), RUNNING(3), SWIMMING(4), DEFAULT(5);
     
     private int numCategoria;
     
